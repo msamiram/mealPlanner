@@ -29,7 +29,7 @@ const Home = () => {
   }, []);
 
   const diets = [
-    { name: 'Keto Diet', description: 'Low-carb, high-fat diet for weight loss and focus.', image: './images/keto.jpg', link: 'https://en.wikipedia.org/wiki/Ketogenic_diet' },
+    { name: 'Keto Diet', description: 'Low-carb, high-fat diet for weight loss and focus.', image: 'https://github.com/msamiram/mealPlanner/blob/main/public/images/favorites.png?raw=true', link: 'https://en.wikipedia.org/wiki/Ketogenic_diet' },
     { name: 'Vegan Diet', description: 'Plant-based diet, rich in fiber and nutrients.', image: 'images/vegan.jpg', link: 'https://en.wikipedia.org/wiki/Veganism' },
     { name: 'Paleo Diet', description: 'Eat whole foods like lean meats, fish, and veggies.', image: './images/paleo.jpg', link: 'https://en.wikipedia.org/wiki/Paleolithic_diet' },
     { name: 'Gluten-Free Diet', description: 'Avoid gluten while enjoying delicious meals.', image: './images/gluten.jpg', link: 'https://en.wikipedia.org/wiki/Gluten-free_diet' },
