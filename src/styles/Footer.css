@@ -1,0 +1,29 @@
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px; */
+    /* margin-top: auto; */
+  }
+ 
+  .footer p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #ff6f61;
+  }
+  
