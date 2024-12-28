@@ -13,7 +13,7 @@ const RecipeDetails = () => {
     const fetchRecipe = async () => {
       setLoading(true);
       try {
-        const response = await axios.get(`https://api.spoonacular.com/recipes/${id}/information?apiKey=3d6c476db58b4d36b00d2be5154ddb81`);
+        const response = await axios.get(`https://api.spoonacular.com/recipes/${id}/information?apiKey=388fb8e890054971b0ebf1a0c63fbc44`);
         setRecipe(response.data);
       } catch (err) {
         setError('Failed to fetch recipe details.');

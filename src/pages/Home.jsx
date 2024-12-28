@@ -9,7 +9,7 @@ const Home = () => {
     const container = scrollContainerRef.current;
     if (container) {
       const cards = container.innerHTML;
-      container.innerHTML += cards; // Duplicate the content
+      container.innerHTML += cards; 
 
       // let scrollSpeed = 2; 
       // let scrollInterval = 10; 
@@ -29,16 +29,16 @@ const Home = () => {
   }, []);
 
   const diets = [
-    { name: 'Keto Diet', description: 'Low-carb, high-fat diet for weight loss and focus.', image: 'https://github.com/msamiram/mealPlanner/blob/main/public/images/favorites.png?raw=true', link: 'https://en.wikipedia.org/wiki/Ketogenic_diet' },
-    { name: 'Vegan Diet', description: 'Plant-based diet, rich in fiber and nutrients.', image: 'images/vegan.jpg', link: 'https://en.wikipedia.org/wiki/Veganism' },
-    { name: 'Paleo Diet', description: 'Eat whole foods like lean meats, fish, and veggies.', image: './images/paleo.jpg', link: 'https://en.wikipedia.org/wiki/Paleolithic_diet' },
-    { name: 'Gluten-Free Diet', description: 'Avoid gluten while enjoying delicious meals.', image: './images/gluten.jpg', link: 'https://en.wikipedia.org/wiki/Gluten-free_diet' },
+    { name: 'Keto Diet', description: 'Low-carb, high-fat diet for weight loss and focus.', image: 'https://github.com/msamiram/mealPlanner/blob/main/public/images/keto.jpg?raw=true', link: 'https://en.wikipedia.org/wiki/Ketogenic_diet' },
+    { name: 'Vegan Diet', description: 'Plant-based diet, rich in fiber and nutrients.', image: 'https://github.com/msamiram/mealPlanner/blob/main/public/images/vegan.jpg?raw=true', link: 'https://en.wikipedia.org/wiki/Veganism' },
+    { name: 'Paleo Diet', description: 'Eat whole foods like lean meats, fish, and veggies.', image: 'https://github.com/msamiram/mealPlanner/blob/main/public/images/paleo.jpg?raw=true', link: 'https://en.wikipedia.org/wiki/Paleolithic_diet' },
+    { name: 'Gluten-Free Diet', description: 'Avoid gluten while enjoying delicious meals.', image: 'https://github.com/msamiram/mealPlanner/blob/main/public/images/gluten.jpg?raw=true', link: 'https://en.wikipedia.org/wiki/Gluten-free_diet' },
   ];
 
   const featuredRecipes = [
-    { id: 1, name: 'Grilled Veggie Delight', description: 'A quick and easy recipe packed with the freshness of grilled vegetables', image: '/images/rec1.jpg' },
-    { id: 2, name: 'Mediterranean Chicken Platter', description: 'A tender chicken withbseasoned vegetables, and herbs.', image: '/images/rec2.jpg' },
-    { id: 3, name: 'Spicy Chicken Skewers', description: 'Tasty and juicy chicken skewers marinated with spices.', image: '/images/rec3.jpg' },
+    { id: 1, name: 'Grilled Veggie Delight', description: 'A quick and easy recipe packed with the freshness of grilled vegetables', image: 'https://github.com/msamiram/mealPlanner/blob/main/public/images/rec1.jpg?raw=true' },
+    { id: 2, name: 'Mediterranean Chicken Platter', description: 'A tender chicken withbseasoned vegetables, and herbs.', image: 'https://github.com/msamiram/mealPlanner/blob/main/public/images/rec2.jpg?raw=true' },
+    { id: 3, name: 'Spicy Chicken Skewers', description: 'Tasty and juicy chicken skewers marinated with spices.', image: 'https://github.com/msamiram/mealPlanner/blob/main/public/images/rec3.jpg?raw=true' },
   ];
 
 
@@ -56,7 +56,7 @@ const Home = () => {
           </div>
         </div>
         <div className="hero-image">
-          <img src="/images/img1.png" alt="Delicious Food" className="image" />
+          <img src="https://github.com/msamiram/mealPlanner/blob/main/public/images/img1.png?raw=true" alt="Delicious Food" className="image" />
         </div>
       </div>
 
@@ -83,7 +83,7 @@ const Home = () => {
       <div>
 
         <div className='diet-section'>
-          <img className="spagetti-img" src="/images/img2.png" alt="Delicious Food" />
+          <img className="spagetti-img" src="https://github.com/msamiram/mealPlanner/blob/main/public/images/img2.png?raw=true" alt="Delicious Food" />
           <div className="diet-desc-card">
             <div><h2 className="section-title">Explore Popular Diets</h2>
               <p className="section-description">Discover meal plans tailored to your lifestyle and health goals.</p></div>
@@ -106,17 +106,17 @@ const Home = () => {
         <div className="discover-links">
           <Link to="/recipes" className="meal-plan-link">
             <div className="discover-icon">
-              <img className='discover-img' src="/images/recipes.png" alt="" />
+              <img className='discover-img' src="https://github.com/msamiram/mealPlanner/blob/main/public/images/recipes.png?raw=true" alt="" />
             </div>
           </Link>
           <Link to="/planner" className="meal-plan-link">
             <div className="discover-icon">
-              <img className='discover-img' src="/images/planner.png" alt="" />
+              <img className='discover-img' src="https://github.com/msamiram/mealPlanner/blob/main/public/images/planner.png?raw=true" alt="" />
             </div>
           </Link>
           <Link to="/favorites" className="meal-plan-link">
             <div className="discover-icon">
-              <img className='discover-img' src="/images/favorites.png" alt="" />
+              <img className='discover-img' src="https://github.com/msamiram/mealPlanner/blob/main/public/images/favorites.png?raw=true" alt="" />
             </div>
           </Link>
         </div>
