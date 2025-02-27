@@ -50,9 +50,9 @@ const Home = () => {
           <p className="hero-description">Discover recipes that nourish your body and delight your taste buds. Enjoy healthy eating with Meal Planner!</p>
           <div className="hero-buttons">
             <Link to="/planner" className="meal-plan-link">
-              <button className="btn btn-primary">Meal Plan</button></Link>
+              <button className="btn btn-primary">Plan</button></Link>
             <Link to="/recipes" className="meal-plan-link">
-              <button className="btn btn-secondary">Explore Recipes</button></Link>
+              <button className="btn btn-secondary">Recipes</button></Link>
           </div>
         </div>
         <div className="hero-image">
